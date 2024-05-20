@@ -1,0 +1,102 @@
+:root {
+    --cor-de-fundo: black;
+    --cor-de-preenchimento: rgba(142, 255, 187, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: white;
+    font-size: 40px;
+}
+
+.titulo span {
+    color: var(--cor-de-preenchimento);
+}
+
+/* ESTILO DO CABEÇARIO */
+
+header {
+    padding: 40px 4%;
+    box-shadow: 0px 2px 0px 0px var(--cor-de-preenchimento)
+}
+
+.interface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-cabecalho p {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#nome-usuário{
+    color: var(--cor-de-preenchimento);
+}
+
+/* ESTILO DA SAÚDE E BEM ESTAR */
+
+section.saude-bem-estar{
+    padding: 40px 4%;
+}
+
+section.saude-bem-estar .interface{
+    margin-top: 50px;
+}
+
+.coracao-hospital-imagem{
+    font-size: 150px;
+    color: var(--cor-de-preenchimento);
+}
+
+.txt-saude h2{
+    color: white;
+    padding: 10px 30px;
+}
+
+.txt-saude p{
+    color: white;
+    padding: 10px 30px;
+}
+
+.txt-saude .lista{
+    color: white;
+    padding: 20px 46px;
+}
+
+li::marker{
+    color: var(--cor-de-preenchimento);
+}
+
+section.saude-bem-estar{
+    box-shadow: 0px 2px 0px 0px var(--cor-de-preenchimento);
+}
+
+/* FOOTER */
+
+section.rodape{
+    padding: 40px 4%;
+}
